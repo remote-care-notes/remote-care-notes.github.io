@@ -66,6 +66,21 @@ Fire TV を Alexa に登録しておくと、こんな操作が遠隔からで�
 - 「ホーム画面に戻る」
 - 一時停止 / 再生
 
+実家のテレビが Fire TV 対応でない場合は、HDMI 端子に挿すだけで使える **Amazon Fire TV Stick**（5,000〜8,000円）が手軽です。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【楽天ランキングNo.1★2年保証】 アレクサ ファイヤースティック Fire TV Stick amazonファイヤースティック アマゾン 新型 第3世代 Alexa対応 fire fireTV ファイヤーtvスティック ファイアースティック DAZN TVer 4K リモコンカバー","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/justrich\/cabinet\/07983610","p":["\/imgrc0132644434.jpg","\/imgrc0138240565.jpg","\/imgrc0138241467.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/justrich\/compass1598521581\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/justrich\/compass1598521581\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"x6ODV","s":"s"});
+</script>
+<div id="msmaflink-x6ODV">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 設定方法:
 
 1. Alexa アプリ → デバイスを追加 → Fire TV を選択
