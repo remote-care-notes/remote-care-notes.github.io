@@ -217,7 +217,18 @@ msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボ�
 
 ### 指スイッチ（SwitchBot Bot）
 
-（リンク準備中）
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡単取付 スイッチボット (スマート家電スイッチ) [電池タイプ]","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut-ps\/cabinet\/item\/153","p":["\/p-270382.jpg","\/p-270384.jpg","\/r-270380.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"seRmG","s":"s"});
+</script>
+<div id="msmaflink-seRmG">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### Echo Dot
 
