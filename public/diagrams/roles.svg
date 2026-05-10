@@ -5,7 +5,7 @@
 
 	<!-- 列ヘッダ -->
 	<text x="125" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#60739f">実家（本人がいる場所）</text>
-	<text x="380" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#60739f">担当アプリ</text>
+	<text x="380" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#60739f">担当する仕組み</text>
 	<text x="635" y="32" text-anchor="middle" font-size="13" font-weight="700" fill="#60739f">起こること</text>
 
 	<!-- 行1: Alexa -->
