@@ -14,21 +14,64 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<Header />
 		<main>
 			<h1>{SITE_TITLE}</h1>
-			<p>{SITE_DESCRIPTION}</p>
+			<p class="tagline">{SITE_DESCRIPTION}</p>
 			<p>
-				離れて暮らす親を、毎日通えない距離からどう見守るか。いわゆる「リモート介護」の運用ノウハウをまとめたサイトです。
+				1〜2万円の機材と無料アプリだけで組めるリモート見守りの仕組みを、3年運用してきた経験ベースで全15章にまとめています。
 			</p>
-			<p>
-				少子高齢化で仕事も休めない現役世代。お金もない氷河期世代のSEが、実家から離れて暮らす母親を見守るために編み出した苦肉の策を書き残しています。
-			</p>
-			<p>
-				1〜2万円の機材と無料アプリだけで組めるリモート見守りの仕組みを、3年運用してきた経験ベースで書いていきます。
-			</p>
-			<ul>
-				<li><a href="/blog">記事一覧を見る</a></li>
-				<li><a href="/about">このサイトについて</a></li>
-			</ul>
+			<nav class="cta-row">
+				<a class="cta cta-primary" href="/blog/hajimeni/">最初から読む</a>
+				<a class="cta" href="/blog/">記事一覧から選ぶ</a>
+				<a class="cta" href="/shopping-list/">機材リストだけ見る</a>
+			</nav>
+			<p class="about-link"><a href="/about/">このサイトについて</a></p>
 		</main>
 		<Footer />
+		<style>
+			main h1 {
+				margin-bottom: 0.3em;
+			}
+			.tagline {
+				font-size: 1.05em;
+				color: rgb(var(--gray-dark));
+				margin-bottom: 1.5em;
+			}
+			.cta-row {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.8em;
+				margin: 2em 0 1.5em;
+			}
+			.cta {
+				display: inline-block;
+				padding: 0.7em 1.4em;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 8px;
+				color: rgb(var(--gray-dark));
+				text-decoration: none;
+				font-weight: 700;
+				transition: border-color 0.15s, background 0.15s, color 0.15s;
+			}
+			.cta:hover {
+				border-color: var(--accent);
+				color: var(--accent);
+			}
+			.cta-primary {
+				background: #2337ff;
+				border-color: #2337ff;
+				color: #fff;
+			}
+			.cta-primary:hover {
+				background: #1a2bcc;
+				border-color: #1a2bcc;
+				color: #fff;
+			}
+			.about-link {
+				margin-top: 1em;
+				font-size: 0.9em;
+			}
+			.about-link a {
+				color: rgb(var(--gray));
+			}
+		</style>
 	</body>
 </html>
