@@ -5,6 +5,9 @@ CLAUDE.md
 # Private working notes (contains real names, addresses, sensitive details)
 chat-log.md
 
+# scratch / pre-mask working dir
+tmp/
+
 # build output
 dist/
 .output/
