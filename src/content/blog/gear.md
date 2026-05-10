@@ -187,7 +187,18 @@ msmaflink({"n":"TP-Link（ティーピーリンク） パンチルト ネット�
 
 ### 温湿度計（SwitchBot）
 
-（リンク準備中）
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"［楽天ランキング1位獲得］［暑さ対策フェア］ SwitchBot 温湿度計 デジタル 熱中症対策 スタンド マグネット スマートハウス IoT # SWITCHBOTMETER-GH スイッチボット (スマート家電・健康管理) b9","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut\/cabinet","p":["\/item\/157\/p-417865.jpg","\/realtime\/-497063.jpg","\/item\/157\/r-417869.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"nO2Xe","s":"s"});
+</script>
+<div id="msmaflink-nO2Xe">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### Hub mini（SwitchBot）
 
