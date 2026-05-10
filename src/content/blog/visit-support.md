@@ -23,8 +23,36 @@ chapterNumber: 12
 
 仕込み方は次のとおり：
 
-- **除湿機**：物理ボタン式が多いので、SwitchBot 指スイッチで電源を ON
+- **除湿機**：物理ボタン式が多いので、SwitchBot 指スイッチで電源を ON。我が家では **アイリスオーヤマ** のコンプレッサー式除湿機を使っています
 - **サーキュレーター**：赤外線リモコン式なら SwitchBot Hub から操作できます。これから買うなら **リモコン対応モデル** を選ぶのがおすすめ（指スイッチ＋物理ボタンの組み合わせより、電池切れの心配なく管理が楽）。我が家では **アイリスオーヤマ** のリモコン対応サーキュレーターを使っていて、Hub mini から動かしています
+
+実際に使っている除湿機（PR・楽天アフィリエイト）：
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【公式限定2年保証】 除湿機 コンプレッサー式 衣類乾燥除湿機 部屋干し ニオイ対策 梅雨対策 家電 湿度 カビ パワフル除湿 電気代 省エネ 夏 自動運転 湿度キープ 除湿器 乾燥機 IJC-R65 IJC-P70 [安心延長保証対象]【iris_dl02】","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/irisplaza-r\/cabinet\/11073544\/12096888","p":["\/imgrc0110494569.jpg","\/imgrc0110494621.jpg","\/108184_1.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/irisplaza-r\/561929\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/irisplaza-r\/561929\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"h068u","s":"s"});
+</script>
+<div id="msmaflink-h068u">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
+#### 排水はホースで台所まで流す
+
+除湿機は溜まった水の排水が地味に大変です。タンクが満タンになると運転が止まりますし、本人がタンクを持ち上げて捨てるのも腰や手首に負担がかかります。
+
+そこで、**除湿機の背面にある排水口にホースを接続して、台所のシンクまで流す** ようにしておくと、タンクに溜める必要がなくなって運用がぐっと楽になります。
+
+- ホームセンターで内径15mm前後の透明ホースを購入（数百円）
+- 除湿機の排水口からシンクまで、家具の裏や壁際を伝わせて配管
+- シンクに到達した端は、排水口の上に固定するかシンク内に下ろす
+- ホースが床を這う部分は、人が引っかからないように動線から避ける
+
+これで「タンクの水捨て」という本人や家族の手間が完全に消えて、機械が回り続ける限り無人で運用できます。
 
 実際に使っているサーキュレーター（PR・楽天アフィリエイト）：
 
