@@ -65,14 +65,12 @@ Android 標準の画面分割は、毎回こんな手順を踏みます。
 
 そこで、**画面分割の組み合わせ（ペア）を保存しておけるランチャーアプリ** を使います。Google Play で「画面分割」「split screen」などで検索すると、いくつか出てきます。
 
-その中で「組」を保存して **ホーム画面のショートカットからワンタップで起動** できるタイプのアプリ、たとえば [Split Screen Launcher](https://play.google.com/store/apps/details?id=com.ryodev.splitscreen)（PR）などを使うと、
+その中で「組」を保存して **ホーム画面のショートカットからワンタップで起動** できるタイプのアプリ、たとえば [Split Screen Launcher](https://play.google.com/store/apps/details?id=com.ryodev.splitscreen) などを使うと、
 
 - 「Tapo + SwitchBot」のペアを1つ保存
 - ホーム画面のショートカットを1タップ → 上下に Tapo と SwitchBot が同時に起動
 
 という運用ができます。何度起動しても、ストレスがなくなります。
-
-> 上記リンクは PR（広告）です。実体験で使っているアプリですが、ご紹介の判断はご自身でお願いします。
 
 ## 無料の範囲で介護運用は完結する
 
