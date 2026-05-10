@@ -54,6 +54,11 @@ msmaflink({"n":"【公式限定2年保証】 除湿機 コンプレッサー式 
 
 **ただし、ホースは重力で水を流す仕組みなので、除湿機本体をシンクより高い位置に置く必要があります**。我が家では **冷蔵庫の上** に除湿機を載せて運用しています（冷蔵庫の天面の耐荷重と、本人が水タンクの様子を見上げられる高さを確認してから設置するのがおすすめ）。
 
+<figure>
+  <img src="/diagrams/dehumidifier-drain.jpg" alt="冷蔵庫の上に置いた除湿機からホースが伸びて、隣のキッチンシンクに垂れている連続排水の設置例。ホースは冷蔵庫の側面にクリップで固定されている" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
+  <figcaption style="text-align: center; color: rgb(var(--gray)); font-size: 0.9em; margin-top: 0.5em;">連続排水の設置例：冷蔵庫の上の除湿機からホースでシンクへ（イメージ）</figcaption>
+</figure>
+
 これで「タンクの水捨て」という本人や家族の手間が完全に消えて、機械が回り続ける限り無人で運用できます。
 
 実際に使っているサーキュレーター（PR・楽天アフィリエイト）：
