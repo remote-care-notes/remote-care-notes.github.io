@@ -33,7 +33,7 @@ Alexa の **定型アクション** を使って、「アレクサ、トイレ�
 3. トイレの照明を点ける
 
 <figure>
-  <img src="/diagrams/fall-prevention-flow.svg" alt="「アレクサ、トイレ」と話しかけると、Echo Dot → Alexaの定型アクション → SwitchBot Hub → 寝室・廊下・トイレの照明が一斉にONになるフロー" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
+  <img src="/diagrams/fall-prevention-flow.svg" alt="「アレクサ、トイレ」と話しかけると、Echo Show 5 → Alexaの定型アクション → SwitchBot Hub → 寝室・廊下・トイレの照明が一斉にONになるフロー" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
 </figure>
 
 夜中、目が覚めて「トイレ行こう」と思った瞬間に枕元へ向かって「アレクサ、トイレ」。それだけで歩く道のりが全部明るくなる。歩き出す前に、目で見て判断できる状態になる。
@@ -46,7 +46,7 @@ Alexa の **定型アクション** を使って、「アレクサ、トイレ�
 
 - SwitchBot Hub mini（赤外線リモコン家電を遠隔操作する装置）
 - 各部屋のシーリングライト（赤外線リモコン式のもの）
-- Echo Dot（本人の寝室、または声が届く場所に設置）
+- Echo Show 5（本人の寝室、または声が届く場所に設置）
 
 ### セットアップの流れ
 
@@ -56,7 +56,7 @@ Alexa の **定型アクション** を使って、「アレクサ、トイレ�
    - 起動条件 → 音声「アレクサ、トイレ」
    - 実行アクション → 「寝室の照明を ON」「廊下の照明を ON」「トイレの照明を ON」を順番に追加
 
-これで、Echo Dot に向かって「アレクサ、トイレ」と話しかけるだけで、3部屋の照明がすべて点くようになります。
+これで、Echo Show 5 に向かって「アレクサ、トイレ」と話しかけるだけで、3部屋の照明がすべて点くようになります。
 
 ## なぜ「トイレ」という単語を選んだか
 
