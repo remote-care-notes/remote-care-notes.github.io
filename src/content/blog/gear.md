@@ -47,6 +47,13 @@ chapterNumber: 2
 
 家を離れていると「今どうしてるかな」が一日に何回もよぎります。電話するほどじゃない、けど気になる。そのちょっとした不安を、カメラを開けば数秒で解消できる。これが大きい。
 
+<figure>
+  <img src="/diagrams/tapo-view-sample.jpg" alt="Tapoアプリで実家のリビングを見たときのイメージ。広角レンズで部屋全体（ベッド・机・テーブル・エアコン・ドア）が一画面に収まり、画面左上にtapoロゴと撮影日時が表示される" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
+  <figcaption style="text-align: center; color: rgb(var(--gray)); font-size: 0.9em; margin-top: 0.5em;">Tapo アプリで見える実家リビングのイメージ（AI 生成）</figcaption>
+</figure>
+
+カメラ1台で部屋のほぼ全景が映るので、本人がベッドにいるのか、テーブルでお茶を飲んでいるのか、椅子で休んでいるのかが、開いた瞬間に分かります。**水平 360°・垂直 114° の首振り機能** もあり、必要なら別の方向にカメラを向けることもできます（後の章で詳しく）。
+
 具体的な製品としては **TP-Link の Tapo C200**（3,000〜5,000円）が手頃です。家電量販店でも普通に売ってます。
 
 <!-- START MoshimoAffiliateEasyLink -->
