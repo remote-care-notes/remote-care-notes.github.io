@@ -27,6 +27,8 @@ chapterNumber: 2
 
 機材それぞれが「家庭の何の役割を担うか」を、なるべく一般的な言葉で書きます。製品名や型番は後ろに。
 
+> 以下に並ぶ機材紹介には **楽天アフィリエイトの広告（PR）** を含む商品リンクが入っています。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
+
 ### 室内の様子を見るカメラ
 
 部屋の中に置いて、その映像をスマホアプリで見られるカメラです。マイクで向こうの音も拾えるので、何かあったときに気付ける範囲が広がります。
@@ -37,6 +39,19 @@ chapterNumber: 2
 
 カメラ自体に双方向通話の機能もついていますが、**遅延が大きく会話のリズムが崩れる** ので、声をかけたいときは Echo Dot に向かって Alexa の「呼びかけ」を使うか、LINE などの通話アプリを別で開くのがおすすめです（後の章で詳しく）。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"TP-Link（ティーピーリンク） パンチルト ネットワークWi-Fiカメラ Tapo C200\/R ホワイト","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ksdenki\/cabinet\/images","p":["\/88_5\/6935364089788_5.jpg","\/88_1\/6935364089788_1.jpg","\/88_2\/6935364089788_2.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"Qtcd3","s":"s"});
+</script>
+<div id="msmaflink-Qtcd3">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 ### 室温と湿度を見るセンサー
 
 小さな置物で、室内の温度と湿度を測ってスマホアプリに送ってくれます。
@@ -44,6 +59,19 @@ chapterNumber: 2
 エアコンには温度センサーが内蔵されていますが、それは「エアコン本体の場所」の温度なので、本人が座っている場所とは数℃ズレることがあります。本人の居る場所に小さなセンサーを置いておけば、外からスマホで「今リビング26℃か、ちょっと暑いな」と分かります。
 
 具体的な製品としては **SwitchBot 温湿度計**（2,000円前後）。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"［楽天ランキング1位獲得］［暑さ対策フェア］ SwitchBot 温湿度計 デジタル 熱中症対策 スタンド マグネット スマートハウス IoT # SWITCHBOTMETER-GH スイッチボット (スマート家電・健康管理) b9","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut\/cabinet","p":["\/item\/157\/p-417865.jpg","\/realtime\/-497063.jpg","\/item\/157\/r-417869.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"nO2Xe","s":"s"});
+</script>
+<div id="msmaflink-nO2Xe">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### 家電のリモコンの代わりになる装置
 
@@ -79,6 +107,19 @@ Hub mini が出す赤外線は、普通のリモコンと同じく **見通し�
 
 Hub 2 という上位機種もありますが、温湿度計が本体に内蔵されているだけ（しかも Hub 2 が置いてある場所の温度しか測れない）なので、本人がいる場所の温度を測りたいなら Hub mini ＋ 別売の温湿度計の組み合わせのほうが融通がききます。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボット スマートリモコン ハブミニ 赤外線家電を管理 スケジュール 遠隔操作 エアコン 汎用（ブラック\/ホワイト）","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/switchbot\/cabinet","p":["\/09377790\/11880636\/11880637\/imgrc0089787176.jpg","\/home\/09454583\/imgrc0076999146.jpg","\/09377790\/09377809\/09377886\/imgrc0079836527.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"IRvvw","s":"s"});
+</script>
+<div id="msmaflink-IRvvw">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 ### 物理ボタンを押してくれるロボット
 
 リモコンが効かない家電（古い扇風機、除湿機、こたつなど、ボタンを直接押すタイプ）に対して、両面テープで貼っておくと、スマホからの指令でアームが物理的にボタンを押してくれる小さな装置があります。
@@ -86,6 +127,19 @@ Hub 2 という上位機種もありますが、温湿度計が本体に内蔵�
 電池駆動なので電池切れには注意。**OFF し忘れたままになっても安全な家電** に対して使うのがコツです。例えば除湿機なら多くの機種に12時間自動オフ機能がついているので、OFF を忘れたとしても家電本体が自動で切ってくれます。「家電に元々ついてる安全機能を信頼する」という感覚です。
 
 具体的な製品としては **SwitchBot 指スイッチ（SwitchBot Bot）**（4,000円前後）。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡単取付 スイッチボット (スマート家電スイッチ) [電池タイプ]","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut-ps\/cabinet\/item\/153","p":["\/p-270382.jpg","\/p-270384.jpg","\/r-270380.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"seRmG","s":"s"});
+</script>
+<div id="msmaflink-seRmG">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### 本人側で「Alexa」と呼びかけて使うスマートスピーカー
 
@@ -101,6 +155,19 @@ Hub 2 という上位機種もありますが、温湿度計が本体に内蔵�
 - **Echo Show 5**（10,000円前後）：5.5インチの小さな画面とカメラ付き。声に加えて、画面で時計・天気・通知が見えること、家族と **ビデオ通話** ができることが大きな違い
 
 我が家では **Echo Show 5** を使っています。本人側で時計や天気が画面で見えるのと、家族とビデオ通話できるのが想像以上に効きます。声だけだと聞き取りづらい場面でも、画面に文字が出れば伝わるので、年齢が上がるほど Show のほうが向きます。Show のカメラ越しにこちらの顔も見えるので、安心感も別物です。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"Echo Show 5 第1世代 エコーショー スマートディスプレイ スピーカー カメラ付き 見守り ビデオ通話 アレクサ Amazon with Alexa エコーショー5 チャコール","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ruterm\/cabinet","p":["\/11556356\/imgrc0100697251.jpg","\/biiino\/award\/84166742ccb4e1ac.jpg","\/10818986\/imgrc0100168207.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"qpxUZ","s":"s"});
+</script>
+<div id="msmaflink-qpxUZ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### 見守る側で使う Android 端末
 
@@ -156,101 +223,18 @@ Tapo・SwitchBot・Alexa は、それぞれログイン用のアカウントが�
 
 ## 価格まとめ
 
-| 機材 | 役割 | 目安価格 | 商品を見る |
-|------|------|---------|------|
-| カメラ（Tapo C200） | 様子を見る・話す | 3,000〜5,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| 温湿度計（SwitchBot） | 室温・湿度を遠隔で見る | 2,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| Hub mini（SwitchBot） | リモコン家電を遠隔操作（部屋ごとに1台） | 4,000〜8,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| 指スイッチ（SwitchBot Bot） | 物理ボタン家電を押す | 4,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| Echo Dot / Echo Show 5 | 本人側の音声操作（Show は画面・カメラ・ビデオ通話も） | 5,000〜10,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| Android 端末（スマホ/タブレット） | 見守る側の操作端末 | 0円〜（流用） | — |
-
-> 上の表中のリンク先には、Amazonアソシエイトおよび楽天アフィリエイトの広告（PR）が含まれます。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
+| 機材 | 役割 | 目安価格 |
+|------|------|---------|
+| カメラ（Tapo C200） | 様子を見る・話す | 3,000〜5,000円 |
+| 温湿度計（SwitchBot） | 室温・湿度を遠隔で見る | 2,000円前後 |
+| Hub mini（SwitchBot） | リモコン家電を遠隔操作（部屋ごとに1台） | 4,000〜8,000円 |
+| 指スイッチ（SwitchBot Bot） | 物理ボタン家電を押す | 4,000円前後 |
+| Echo Dot / Echo Show 5 | 本人側の音声操作（Show は画面・カメラ・ビデオ通話も） | 5,000〜10,000円 |
+| Android 端末（スマホ/タブレット） | 見守る側の操作端末 | 0円〜（流用） |
 
 最低構成（カメラ＋温湿度計＋Hub mini）なら **約1万円**。Echo Dot や指スイッチを足しても **2万円で収まります**。
 
 複数の部屋で家電を操作したい場合は、Hub mini を部屋ごとに増やすぶん上振れします（リビング＋寝室で2台運用すると、Hub mini だけで1万円前後）。
-
-## 商品リンク（PR）
-
-ここからは具体的な購入リンクです。**この先のリンクは Amazon アソシエイトおよび楽天アフィリエイトの広告（PR）を含みます**。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
-
-### カメラ（Tapo C200）
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"TP-Link（ティーピーリンク） パンチルト ネットワークWi-Fiカメラ Tapo C200\/R ホワイト","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ksdenki\/cabinet\/images","p":["\/88_5\/6935364089788_5.jpg","\/88_1\/6935364089788_1.jpg","\/88_2\/6935364089788_2.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"Qtcd3","s":"s"});
-</script>
-<div id="msmaflink-Qtcd3">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-
-### 温湿度計（SwitchBot）
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"［楽天ランキング1位獲得］［暑さ対策フェア］ SwitchBot 温湿度計 デジタル 熱中症対策 スタンド マグネット スマートハウス IoT # SWITCHBOTMETER-GH スイッチボット (スマート家電・健康管理) b9","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut\/cabinet","p":["\/item\/157\/p-417865.jpg","\/realtime\/-497063.jpg","\/item\/157\/r-417869.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut\/517049\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"nO2Xe","s":"s"});
-</script>
-<div id="msmaflink-nO2Xe">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-
-### Hub mini（SwitchBot）
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボット スマートリモコン ハブミニ 赤外線家電を管理 スケジュール 遠隔操作 エアコン 汎用（ブラック\/ホワイト）","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/switchbot\/cabinet","p":["\/09377790\/11880636\/11880637\/imgrc0089787176.jpg","\/home\/09454583\/imgrc0076999146.jpg","\/09377790\/09377809\/09377886\/imgrc0079836527.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"IRvvw","s":"s"});
-</script>
-<div id="msmaflink-IRvvw">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-
-### 指スイッチ（SwitchBot Bot）
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡単取付 スイッチボット (スマート家電スイッチ) [電池タイプ]","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/kitcut-ps\/cabinet\/item\/153","p":["\/p-270382.jpg","\/p-270384.jpg","\/r-270380.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/kitcut-ps\/51704324271\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"seRmG","s":"s"});
-</script>
-<div id="msmaflink-seRmG">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
-
-### スマートスピーカー（Echo Show 5）
-
-我が家で実際に使っているのは画面・カメラ付きの Echo Show 5 です。Echo Dot のリンクは別途追加予定。
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"Echo Show 5 第1世代 エコーショー スマートディスプレイ スピーカー カメラ付き 見守り ビデオ通話 アレクサ Amazon with Alexa エコーショー5 チャコール","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ruterm\/cabinet","p":["\/11556356\/imgrc0100697251.jpg","\/biiino\/award\/84166742ccb4e1ac.jpg","\/10818986\/imgrc0100168207.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"qpxUZ","s":"s"});
-</script>
-<div id="msmaflink-qpxUZ">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
 
 ## 安く手に入れるには
 
