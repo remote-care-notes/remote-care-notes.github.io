@@ -166,6 +166,41 @@ Tapo・SwitchBot・Alexa は、それぞれログイン用のアカウントが�
 
 複数の部屋で家電を操作したい場合は、Hub mini を部屋ごとに増やすぶん上振れします（リビング＋寝室で2台運用すると、Hub mini だけで1万円前後）。
 
+## 商品リンク（PR）
+
+ここからは具体的な購入リンクです。**この先のリンクは Amazon アソシエイトおよび楽天アフィリエイトの広告（PR）を含みます**。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
+
+### カメラ（Tapo C200）
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"TP-Link（ティーピーリンク） パンチルト ネットワークWi-Fiカメラ Tapo C200\/R ホワイト","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ksdenki\/cabinet\/images","p":["\/88_5\/6935364089788_5.jpg","\/88_1\/6935364089788_1.jpg","\/88_2\/6935364089788_2.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ksdenki\/6935364089788\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"Qtcd3","s":"s"});
+</script>
+<div id="msmaflink-Qtcd3">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
+### 温湿度計（SwitchBot）
+
+（リンク準備中）
+
+### Hub mini（SwitchBot）
+
+（リンク準備中）
+
+### 指スイッチ（SwitchBot Bot）
+
+（リンク準備中）
+
+### Echo Dot
+
+（リンク準備中）
+
 ## 安く手に入れるには
 
 このあたりの機材、定価で買う必要はないです。新品で買う方法と、中古を活用する方法、両方視野に入れておくと費用を抑えられます。
