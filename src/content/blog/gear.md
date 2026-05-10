@@ -62,6 +62,8 @@ msmaflink({"n":"TP-Link（ティーピーリンク） パンチルト ネット�
 <div id="msmaflink-Qtcd3">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
+> **初期設定の手順**：[Tapo カメラの設定方法（TP-Link 公式）](https://www.tp-link.com/jp/support/faq/2710/)
+
 カメラ自体に双方向通話の機能もついていますが、**遅延が大きく会話のリズムが崩れる** ので、声をかけたいときは Echo Show 5 に向かって Alexa の「呼びかけ」を使うか、LINE などの通話アプリを別で開くのがおすすめです（後の章で詳しく）。
 
 ### 室温と湿度を見るセンサー
@@ -85,6 +87,8 @@ msmaflink({"n":"［楽天ランキング1位獲得］［暑さ対策フェア］
 <div id="msmaflink-nO2Xe">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
+> **初期設定の手順**：[SwitchBot 温湿度計 製品ページ（公式・取扱説明書あり）](https://www.switchbot.jp/products/switchbot-meter)
+
 ### 家電のリモコンの代わりになる装置
 
 エアコン、照明、テレビなどを遠隔から操作するためには、その家電が **リモコンで動かせる** ことが前提になります。家電自体を改造するのではなく、「**リモコンと同じ信号をスマホから出す**」のがこの装置の仕組みです。
@@ -105,6 +109,8 @@ msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボ�
 </script>
 <div id="msmaflink-IRvvw">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
+
+> **初期設定の手順**：[SwitchBot ハブミニ 取扱説明書（公式サポート）](https://support.switch-bot.com/hc/ja/articles/6729445530263-SwitchBot%E3%83%8F%E3%83%96%E3%83%9F%E3%83%8B%E5%8F%96%E6%89%B1%E8%AA%AC%E6%98%8E%E6%9B%B8)
 
 これを実家の家電が見える場所に1台置いておけば、エアコン・照明・テレビをスマホから操作できます。「今暑そう」と思ったときに、電話で「冷房つけて」と頼むより早く点けられます。
 
@@ -168,6 +174,8 @@ msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡�
 <div id="msmaflink-seRmG">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
+> **初期設定の手順**：[SwitchBot ボット 製品ページ（公式・取扱説明書あり）](https://www.switchbot.jp/products/switchbot-bot)
+
 #### 換えの電池は Panasonic を選ぶ
 
 3年運用してきて思うのは、Bot に入れる **CR2 リチウム電池は Panasonic 一択** ということです。
@@ -211,6 +219,8 @@ msmaflink({"n":"Echo Show 5 第1世代 エコーショー スマートディス�
 </script>
 <div id="msmaflink-qpxUZ">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
+
+> **初期設定の手順**：[Echo Show の初期設定方法を知る（Amazon 公式ヘルプ）](https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=G3BQ3JBVCELFGBEM)
 
 Echo Show 5 の何が介護向けに効くか:
 
