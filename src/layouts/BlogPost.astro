@@ -1,14 +1,26 @@
 ---
 import { Image } from 'astro:assets';
-import type { CollectionEntry } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & { id?: string };
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, chapterNumber } = Astro.props;
+
+const allPosts = await getCollection('blog');
+const ordered = allPosts
+	.filter((p) => typeof p.data.chapterNumber === 'number')
+	.sort((a, b) => (a.data.chapterNumber as number) - (b.data.chapterNumber as number));
+
+let prev: (typeof ordered)[number] | undefined;
+let next: (typeof ordered)[number] | undefined;
+if (typeof chapterNumber === 'number') {
+	prev = [...ordered].reverse().find((p) => (p.data.chapterNumber as number) < chapterNumber);
+	next = ordered.find((p) => (p.data.chapterNumber as number) > chapterNumber);
+}
 ---
 
 <html lang="ja">
@@ -45,12 +57,60 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.title h1 {
 				margin: 0 0 0.5em 0;
 			}
+			.chapter-num {
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+				margin-bottom: 0.4em;
+			}
 			.date {
 				margin-bottom: 0.5em;
 				color: rgb(var(--gray));
 			}
 			.last-updated-on {
 				font-style: italic;
+			}
+			.chapter-nav {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1em;
+				margin-top: 3em;
+				padding-top: 1.5em;
+				border-top: 1px solid rgb(var(--gray-light));
+			}
+			.chapter-nav-item {
+				display: flex;
+				flex-direction: column;
+				padding: 0.8em 1em;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 8px;
+				text-decoration: none;
+				color: rgb(var(--gray-dark));
+				transition: border-color 0.15s;
+			}
+			.chapter-nav-item:hover {
+				border-color: var(--accent);
+			}
+			.chapter-nav-item.next {
+				text-align: right;
+			}
+			.chapter-nav-label {
+				font-size: 0.85em;
+				color: rgb(var(--gray));
+				margin-bottom: 0.2em;
+			}
+			.chapter-nav-title {
+				font-weight: 700;
+			}
+			.chapter-nav-placeholder {
+				/* keeps the grid balanced when prev or next is missing */
+			}
+			.chapter-nav-toc {
+				text-align: center;
+				margin-top: 1em;
+				font-size: 0.95em;
+			}
+			.chapter-nav-toc a {
+				color: rgb(var(--gray));
 			}
 		</style>
 	</head>
@@ -64,12 +124,17 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</div>
 				<div class="prose">
 					<div class="title">
+						{
+							typeof chapterNumber === 'number' && (
+								<div class="chapter-num">第 {chapterNumber} 章</div>
+							)
+						}
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
 									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
+										最終更新: <FormattedDate date={updatedDate} />
 									</div>
 								)
 							}
@@ -78,6 +143,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
+					{
+						(prev || next) && (
+							<nav class="chapter-nav">
+								{prev ? (
+									<a class="chapter-nav-item prev" href={`/blog/${prev.id}/`}>
+										<span class="chapter-nav-label">← 前の章 (第 {prev.data.chapterNumber} 章)</span>
+										<span class="chapter-nav-title">{prev.data.title}</span>
+									</a>
+								) : (
+									<span class="chapter-nav-placeholder" />
+								)}
+								{next ? (
+									<a class="chapter-nav-item next" href={`/blog/${next.id}/`}>
+										<span class="chapter-nav-label">次の章 (第 {next.data.chapterNumber} 章) →</span>
+										<span class="chapter-nav-title">{next.data.title}</span>
+									</a>
+								) : (
+									<span class="chapter-nav-placeholder" />
+								)}
+							</nav>
+						)
+					}
+					<div class="chapter-nav-toc">
+						<a href="/blog/">記事一覧へ</a>
+					</div>
 				</div>
 			</article>
 		</main>
