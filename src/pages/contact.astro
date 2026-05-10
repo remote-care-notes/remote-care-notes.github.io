@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+
+// 後で Google Forms の URL に差し替える
+const formUrl = '#';
 ---
 
 <Layout
@@ -8,11 +11,18 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('2026-05-10')}
 >
 	<p>
-		記事の内容に関する質問、誤字・誤情報の指摘、ご意見・ご感想などがありましたら、下記のメールアドレスまでご連絡ください。
+		記事の内容に関する質問、誤字・誤情報の指摘、ご意見・ご感想などがありましたら、下記のフォームからご連絡ください。
 	</p>
 
-	<p style="font-size: 1.1em; margin: 1.5em 0; padding: 1em; background: rgb(229, 233, 240); border-radius: 8px;">
-		<strong>メールアドレス：</strong>（準備中。後日掲載します）
+	<p style="margin: 1.8em 0;">
+		<a
+			href={formUrl}
+			target="_blank"
+			rel="noopener"
+			style="display: inline-block; padding: 0.8em 1.6em; background: #2337ff; color: #fff; border-radius: 8px; text-decoration: none; font-weight: 700;"
+		>
+			お問い合わせフォームを開く
+		</a>
 	</p>
 
 	<p>
