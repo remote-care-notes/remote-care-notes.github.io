@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="fp-title fp-desc" font-family="-apple-system, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif">
+	<title id="fp-title">「アレクサ、トイレ」一言で動線が点灯するフロー</title>
+	<desc id="fp-desc">本人がEcho Dotに「アレクサ、トイレ」と話しかけると、Alexaの定型アクションがSwitchBot Hubを呼び出し、寝室・廊下・トイレの照明が一斉に点灯する流れ</desc>
+
+	<defs>
+		<marker id="fp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+			<path d="M 0 0 L 10 5 L 0 10 z" fill="#60739f"/>
+		</marker>
+	</defs>
+
+	<!-- Step 1: 本人 -->
+	<rect x="240" y="20" width="240" height="70" rx="12" fill="#e5e9f0"/>
+	<text x="360" y="50" text-anchor="middle" font-size="14" font-weight="700" fill="#0f1219">本人（夜中、寝室）</text>
+	<text x="360" y="72" text-anchor="middle" font-size="12" fill="#60739f">「アレクサ、トイレ」</text>
+
+	<!-- arrow 1 -->
+	<line x1="360" y1="92" x2="360" y2="120" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+
+	<!-- Step 2: Echo Dot -->
+	<rect x="240" y="125" width="240" height="60" rx="12" fill="#fff" stroke="#0f1219" stroke-width="1.5"/>
+	<text x="360" y="152" text-anchor="middle" font-size="13" font-weight="700" fill="#0f1219">Echo Dot</text>
+	<text x="360" y="172" text-anchor="middle" font-size="11" fill="#60739f">寝室に置いてあるスマートスピーカー</text>
+
+	<!-- arrow 2 -->
+	<line x1="360" y1="187" x2="360" y2="215" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+
+	<!-- Step 3: Alexa 定型アクション -->
+	<rect x="220" y="220" width="280" height="70" rx="12" fill="#fff" stroke="#2337ff" stroke-width="2"/>
+	<text x="360" y="248" text-anchor="middle" font-size="14" font-weight="700" fill="#2337ff">Alexa の定型アクション</text>
+	<text x="360" y="270" text-anchor="middle" font-size="11" fill="#60739f">「トイレ」をきっかけに、3つの照明をONする</text>
+
+	<!-- arrow 3 -->
+	<line x1="360" y1="292" x2="360" y2="320" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+
+	<!-- Step 4: SwitchBot Hub -->
+	<rect x="240" y="325" width="240" height="60" rx="12" fill="#fff" stroke="#0f1219" stroke-width="1.5"/>
+	<text x="360" y="352" text-anchor="middle" font-size="13" font-weight="700" fill="#0f1219">SwitchBot Hub</text>
+	<text x="360" y="372" text-anchor="middle" font-size="11" fill="#60739f">学習済みのリモコン信号（赤外線）を送信</text>
+
+	<!-- branching arrows to 3 lights -->
+	<line x1="360" y1="387" x2="120" y2="445" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+	<line x1="360" y1="387" x2="360" y2="445" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+	<line x1="360" y1="387" x2="600" y2="445" stroke="#60739f" stroke-width="1.8" marker-end="url(#fp-arrow)"/>
+
+	<!-- Step 5: 3 lights ON -->
+	<rect x="20" y="455" width="200" height="80" rx="12" fill="#e5e9f0"/>
+	<text x="120" y="485" text-anchor="middle" font-size="14" font-weight="700" fill="#0f1219">寝室の照明</text>
+	<text x="120" y="510" text-anchor="middle" font-size="22" font-weight="700" fill="#2337ff">ON</text>
+
+	<rect x="260" y="455" width="200" height="80" rx="12" fill="#e5e9f0"/>
+	<text x="360" y="485" text-anchor="middle" font-size="14" font-weight="700" fill="#0f1219">廊下の照明</text>
+	<text x="360" y="510" text-anchor="middle" font-size="22" font-weight="700" fill="#2337ff">ON</text>
+
+	<rect x="500" y="455" width="200" height="80" rx="12" fill="#e5e9f0"/>
+	<text x="600" y="485" text-anchor="middle" font-size="14" font-weight="700" fill="#0f1219">トイレの照明</text>
+	<text x="600" y="510" text-anchor="middle" font-size="22" font-weight="700" fill="#2337ff">ON</text>
+
+	<!-- 結果 -->
+	<text x="360" y="575" text-anchor="middle" font-size="13" fill="#60739f">寝室から廊下、トイレまでの動線がすべて明るくなる</text>
+	<text x="360" y="595" text-anchor="middle" font-size="11" fill="#60739f">本人が覚えるのは「アレクサ、トイレ」の1単語だけ</text>
+</svg>

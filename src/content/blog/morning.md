@@ -16,6 +16,10 @@ chapterNumber: 4
 
 順に書きます。
 
+<figure>
+  <img src="/diagrams/morning-timeline.svg" alt="起床の2時間前にSwitchBotスケジュールでエアコンON、起床時刻にAlexaが4ステップの挨拶（名前呼び・日付曜日・睡眠の問いかけ・次の行動の提示）を流すタイムライン" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
+</figure>
+
 ## 起床の2時間前にエアコンを入れる
 
 寒い部屋・暑い部屋から起き出すのは、本人にとっても家族にとっても望ましくありません。
