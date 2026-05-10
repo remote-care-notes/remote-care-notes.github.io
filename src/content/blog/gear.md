@@ -87,15 +87,20 @@ Hub 2 という上位機種もありますが、温湿度計が本体に内蔵�
 
 具体的な製品としては **SwitchBot 指スイッチ（SwitchBot Bot）**（4,000円前後）。
 
-### 本人側で「Alexa」と呼びかけて使うスピーカー
+### 本人側で「Alexa」と呼びかけて使うスマートスピーカー
 
 実家のリビングや寝室に置く、小さなスマートスピーカーです。「アレクサ、おはよう」「アレクサ、5分タイマー」「アレクサ、明日の天気」のように呼びかけると応えてくれます。
 
 これがあると、本人がスマホやリモコンを操作しなくても、声で家電を点けたり、タイマーを使ったり、天気予報を聞いたりできます。視力や手元の動作が落ちてきても使えるので、年齢が上がるほど価値が出てくる機材です。
 
-家族との直通通話機能もあり、家族で連絡網に入れておくこともできます。
+家族との通話機能もあり、家族で連絡網に入れておくこともできます。
 
-具体的な製品としては **Amazon Echo Dot 第4世代以降**（5,000円前後）。
+具体的な製品としては Amazon の Echo シリーズが定番です。
+
+- **Echo Dot 第4世代以降**（5,000円前後）：画面なしのコンパクトなスピーカー。声だけで使う想定。コストを抑えるならこちら
+- **Echo Show 5**（10,000円前後）：5.5インチの小さな画面とカメラ付き。声に加えて、画面で時計・天気・通知が見えること、家族と **ビデオ通話** ができることが大きな違い
+
+我が家では **Echo Show 5** を使っています。本人側で時計や天気が画面で見えるのと、家族とビデオ通話できるのが想像以上に効きます。声だけだと聞き取りづらい場面でも、画面に文字が出れば伝わるので、年齢が上がるほど Show のほうが向きます。Show のカメラ越しにこちらの顔も見えるので、安心感も別物です。
 
 ### 見守る側で使う Android 端末
 
@@ -157,7 +162,7 @@ Tapo・SwitchBot・Alexa は、それぞれログイン用のアカウントが�
 | 温湿度計（SwitchBot） | 室温・湿度を遠隔で見る | 2,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
 | Hub mini（SwitchBot） | リモコン家電を遠隔操作（部屋ごとに1台） | 4,000〜8,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
 | 指スイッチ（SwitchBot Bot） | 物理ボタン家電を押す | 4,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
-| Echo Dot | 本人側の音声操作 | 5,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| Echo Dot / Echo Show 5 | 本人側の音声操作（Show は画面・カメラ・ビデオ通話も） | 5,000〜10,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
 | Android 端末（スマホ/タブレット） | 見守る側の操作端末 | 0円〜（流用） | — |
 
 > 上の表中のリンク先には、Amazonアソシエイトおよび楽天アフィリエイトの広告（PR）が含まれます。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
@@ -230,9 +235,22 @@ msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡�
 <div id="msmaflink-seRmG">リンク</div>
 <!-- MoshimoAffiliateEasyLink END -->
 
-### Echo Dot
+### スマートスピーカー（Echo Show 5）
 
-（リンク準備中）
+我が家で実際に使っているのは画面・カメラ付きの Echo Show 5 です。Echo Dot のリンクは別途追加予定。
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"Echo Show 5 第1世代 エコーショー スマートディスプレイ スピーカー カメラ付き 見守り ビデオ通話 アレクサ Amazon with Alexa エコーショー5 チャコール","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/ruterm\/cabinet","p":["\/11556356\/imgrc0100697251.jpg","\/biiino\/award\/84166742ccb4e1ac.jpg","\/10818986\/imgrc0100168207.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/ruterm\/841667168999\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"qpxUZ","s":"s"});
+</script>
+<div id="msmaflink-qpxUZ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ## 安く手に入れるには
 
