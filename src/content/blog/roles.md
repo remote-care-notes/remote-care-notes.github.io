@@ -14,7 +14,7 @@ chapterNumber: 3
 それぞれが違う種類の問題を解決するので、3つを別々に使い分けます。最初は「3つも要るの？」と思うかもしれませんが、役割が違うので統合できません。代わりに、それぞれの役割が明確なので、迷うことは少ないです。
 
 <figure>
-  <img src="/diagrams/roles.svg" alt="3つのアプリの役割分担を表す図。実家側のEcho Show 5・温湿度計と家電・カメラが、それぞれAlexa・SwitchBot・Tapoというアプリを介して、見守る側のスマホ／タブレットに繋がる" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
+  <img src="/diagrams/roles.svg" alt="3つの仕組みの役割分担を表す図。実家側のカメラ・温湿度計と家電・本人とEcho Show 5 が、それぞれ Tapo・SwitchBot・Alexa を介して、見守る側のスマホ／タブレットに繋がる" style="max-width: 100%; display: block; margin: 1.5em auto; border-radius: 8px;" />
 </figure>
 
 ## Tapo は「見る」を担当
