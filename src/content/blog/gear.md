@@ -151,14 +151,16 @@ Tapo・SwitchBot・Alexa は、それぞれログイン用のアカウントが�
 
 ## 価格まとめ
 
-| 機材 | 役割 | 目安価格 |
-|------|------|---------|
-| カメラ（Tapo C200） | 様子を見る・話す | 3,000〜5,000円 |
-| 温湿度計（SwitchBot） | 室温・湿度を遠隔で見る | 2,000円前後 |
-| Hub mini（SwitchBot） | リモコン家電を遠隔操作（部屋ごとに1台） | 4,000〜8,000円 |
-| 指スイッチ（SwitchBot Bot） | 物理ボタン家電を押す | 4,000円前後 |
-| Echo Dot | 本人側の音声操作 | 5,000円前後 |
-| Android 端末（スマホ/タブレット） | 見守る側の操作端末 | 0円〜（流用） |
+| 機材 | 役割 | 目安価格 | 商品を見る |
+|------|------|---------|------|
+| カメラ（Tapo C200） | 様子を見る・話す | 3,000〜5,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| 温湿度計（SwitchBot） | 室温・湿度を遠隔で見る | 2,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| Hub mini（SwitchBot） | リモコン家電を遠隔操作（部屋ごとに1台） | 4,000〜8,000円 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| 指スイッチ（SwitchBot Bot） | 物理ボタン家電を押す | 4,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| Echo Dot | 本人側の音声操作 | 5,000円前後 | <a href="#" rel="sponsored noopener">楽天</a> / <a href="#" rel="sponsored noopener">Amazon</a> |
+| Android 端末（スマホ/タブレット） | 見守る側の操作端末 | 0円〜（流用） | — |
+
+> 上の表中のリンク先には、Amazonアソシエイトおよび楽天アフィリエイトの広告（PR）が含まれます。3年使ってきた実体験ベースで紹介していますが、購入の判断はご自身でお願いします。
 
 最低構成（カメラ＋温湿度計＋Hub mini）なら **約1万円**。Echo Dot や指スイッチを足しても **2万円で収まります**。
 

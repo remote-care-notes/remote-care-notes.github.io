@@ -4,7 +4,12 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} {SITE_TITLE}
+	<nav class="footer-nav">
+		<a href="/about/">このサイトについて</a>
+		<a href="/privacy/">プライバシーポリシー</a>
+		<a href="/contact/">お問い合わせ</a>
+	</nav>
+	<div class="copy">&copy; {today.getFullYear()} {SITE_TITLE}</div>
 </footer>
 <style>
 	footer {
@@ -12,5 +17,23 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.footer-nav {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 1em 1.5em;
+		margin-bottom: 1em;
+		font-size: 0.9em;
+	}
+	.footer-nav a {
+		color: rgb(var(--gray));
+		text-decoration: none;
+	}
+	.footer-nav a:hover {
+		color: var(--accent);
+	}
+	.copy {
+		font-size: 0.85em;
 	}
 </style>
