@@ -250,6 +250,21 @@ Tapo・SwitchBot・Alexa は、それぞれログイン用のアカウントが�
 - **ストーブ**：本人がボタンを押す運用のまま残します（理由は後の章で）
 - **サーキュレーター**：リモコン対応モデル（赤外線）なら Hub から、物理ボタン式なら指スイッチで動かせます。これから買うならリモコン対応がおすすめ（我が家はアイリスオーヤマのリモコン対応モデル）。部屋干し乾燥にも使えます
 
+実際に使っているサーキュレーター（PR・楽天アフィリエイト）：
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"サーキュレーター 洗える アイリスオーヤマ 上下 左右 自動首振り 18畳 コンパクト 軽量 扇風機 パワフル送風 3D送風 リモコン 切タイマー付き 風量3段階 衣類乾燥 部屋干し 分解 梅雨対策 PCF-BC15TEC WOOZOO *超激アツ","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/u-denki\/cabinet","p":["\/samuneiru\/imgrc0111251551.jpg","\/11925706\/imgrc0115611430.jpg","\/10834726\/11305634\/207032_1.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/u-denki\/273516\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/u-denki\/273516\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"G8kaA","s":"s"});
+</script>
+<div id="msmaflink-G8kaA">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 ## 何を最初に買えばいいか
 
 一気に揃える必要はありません。困った段階で足していくのが、無理なく続けるコツです。
