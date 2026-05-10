@@ -112,11 +112,38 @@ if (typeof chapterNumber === 'number') {
 			.chapter-nav-toc a {
 				color: rgb(var(--gray));
 			}
+			/* 図クリックで拡大表示 */
+			article figure img {
+				cursor: zoom-in;
+			}
+			.lightbox {
+				display: none;
+				position: fixed;
+				inset: 0;
+				z-index: 9999;
+				background: rgba(0, 0, 0, 0.85);
+				cursor: zoom-out;
+				align-items: center;
+				justify-content: center;
+				padding: 20px;
+			}
+			.lightbox.open {
+				display: flex;
+			}
+			.lightbox img {
+				max-width: 100%;
+				max-height: 100%;
+				background: #fff;
+				border-radius: 8px;
+			}
 		</style>
 	</head>
 
 	<body>
 		<Header />
+		<div class="lightbox" id="lightbox">
+			<img id="lightbox-img" alt="" />
+		</div>
 		<main>
 			<article>
 				<div class="hero-image">
@@ -172,5 +199,23 @@ if (typeof chapterNumber === 'number') {
 			</article>
 		</main>
 		<Footer />
+		<script is:inline>
+			(function () {
+				const lb = document.getElementById('lightbox');
+				const lbImg = document.getElementById('lightbox-img');
+				if (!lb || !lbImg) return;
+				document.querySelectorAll('article figure img').forEach((img) => {
+					img.addEventListener('click', () => {
+						lbImg.src = img.src;
+						lbImg.alt = img.alt || '';
+						lb.classList.add('open');
+					});
+				});
+				lb.addEventListener('click', () => lb.classList.remove('open'));
+				document.addEventListener('keydown', (e) => {
+					if (e.key === 'Escape') lb.classList.remove('open');
+				});
+			})();
+		</script>
 	</body>
 </html>
