@@ -93,6 +93,19 @@ msmaflink({"n":"［楽天ランキング1位獲得］［暑さ対策フェア］
 
 リモコンの赤外線信号を学習して、スマホアプリから同じ信号を出してくれるのが、この装置です。具体的な製品としては **SwitchBot Hub mini**（4,000〜8,000円）。
 
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボット スマートリモコン ハブミニ 赤外線家電を管理 スケジュール 遠隔操作 エアコン 汎用（ブラック\/ホワイト）","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/switchbot\/cabinet","p":["\/09377790\/11880636\/11880637\/imgrc0089787176.jpg","\/home\/09454583\/imgrc0076999146.jpg","\/09377790\/09377809\/09377886\/imgrc0079836527.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"IRvvw","s":"s"});
+</script>
+<div id="msmaflink-IRvvw">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
 これを実家の家電が見える場所に1台置いておけば、エアコン・照明・テレビをスマホから操作できます。「今暑そう」と思ったときに、電話で「冷房つけて」と頼むより早く点けられます。
 
 #### 届く範囲は「見えるところ」だけ
@@ -131,19 +144,6 @@ Hub mini が出す赤外線は、普通のリモコンと同じく **見通し�
 #### Hub 2 との違い
 
 Hub 2 という上位機種もありますが、温湿度計が本体に内蔵されているだけ（しかも Hub 2 が置いてある場所の温度しか測れない）なので、本人がいる場所の温度を測りたいなら Hub mini ＋ 別売の温湿度計の組み合わせのほうが融通がききます。
-
-<!-- START MoshimoAffiliateEasyLink -->
-<script type="text/javascript">
-(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
-b[a]=b[a]||function(){arguments.currentScript=c.currentScript
-||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
-c.getElementById(a)||(d=c.createElement(f),d.src=g,
-d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
-(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
-msmaflink({"n":"【300万P抽選！エントリーでP2倍！】スイッチボット スマートリモコン ハブミニ 赤外線家電を管理 スケジュール 遠隔操作 エアコン 汎用（ブラック\/ホワイト）","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"\/@0_mall\/switchbot\/cabinet","p":["\/09377790\/11880636\/11880637\/imgrc0089787176.jpg","\/home\/09454583\/imgrc0076999146.jpg","\/09377790\/09377809\/09377886\/imgrc0079836527.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/switchbot\/10000005\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"IRvvw","s":"s"});
-</script>
-<div id="msmaflink-IRvvw">リンク</div>
-<!-- MoshimoAffiliateEasyLink END -->
 
 ### 物理ボタンを押してくれるロボット
 
