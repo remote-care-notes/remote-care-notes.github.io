@@ -151,7 +151,18 @@ msmaflink({"n":"SwitchBot Bot スイッチ 遠隔操作 スマート家電 簡�
 
 Bot 1台あたり1年〜1年半に1回の交換頻度で済むので、**価格より信頼性に振った方が結果的に楽** です。介護で使う以上、肝心なときに動かないのは避けたいので、ここはケチらないのがおすすめです。
 
-（換えの電池リンクは追って追加）
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"【ポスト投函・送料無料・代引き不可】パナソニック Panasonic カメラ用リチウム電池 CR2W(CR2-W)","b":"","t":"","d":"https:\/\/thumbnail.image.rakuten.co.jp","c_p":"","p":["\/@0_mall\/taps\/cabinet\/00208152\/img55613654.jpg"],"u":{"u":"https:\/\/item.rakuten.co.jp\/taps\/387068\/","t":"rakuten","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/item.rakuten.co.jp\/taps\/387068\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":1}],"eid":"i8JIT","s":"s"});
+</script>
+<div id="msmaflink-i8JIT">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
 
 ### 本人側で「Alexa」と呼びかけて使うスマートスピーカー
 
