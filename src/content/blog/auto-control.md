@@ -3,6 +3,7 @@ title: '暑さ寒さで自動オン・オフ：SwitchBot のシーンで温度�
 description: '手動でこまめにエアコンを点けたり消したりは続きません。温度を見て自動でオン・オフする仕組みを SwitchBot のシーンで組みます。'
 pubDate: '2026-05-10'
 chapterNumber: 6
+heroImage: ../../assets/headers/auto-control.png
 ---
 
 [前の章（室温と湿度の管理）](/blog/temperature/) で、目標温度の決め方を書きました。次は **その目標温度に合わせて、自動でエアコンをオン・オフする仕組み** です。

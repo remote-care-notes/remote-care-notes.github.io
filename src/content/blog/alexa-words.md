@@ -3,6 +3,7 @@ title: 'Alexa の話しかける言葉は、本人に合わせる'
 description: '「アレクサ、寝室の照明をつけて」は本人には長すぎ。普段使ってる言葉をそのまま登録すれば、覚える必要すらなくなります。'
 pubDate: '2026-05-10'
 chapterNumber: 9
+heroImage: ../../assets/headers/alexa-words.png
 ---
 
 [前の章（夜中の転倒予防）](/blog/fall-prevention/) で「アレクサ、トイレ」一言で動線が点灯する仕組みを紹介しました。1単語だけにした理由は、夜中の頭でも思い出せるようにするためでした。

@@ -3,6 +3,7 @@ title: '用意するもの'
 description: '離れて暮らす親を見守る機材の紹介。リモコンや温度計など、家庭用のスマートホーム機器の組み合わせで揃います。'
 pubDate: '2026-05-10'
 chapterNumber: 2
+heroImage: ../../assets/headers/gear.png
 ---
 
 > 💡 **すぐ買いたい人へ**：1行説明＋リンクだけをまとめた [機材リスト（買い物用ショートカット）](/shopping-list/) もあります。

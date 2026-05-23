@@ -3,6 +3,7 @@ title: 'テレビやネットの操作を遠隔から手助け：Alexa + Fire TV
 description: 'テレビのチャンネル合わせや見たい番組の選択を、本人がうまくできないとき。カメラで画面を見ながら声で誘導したり、Alexa で代行したりします。'
 pubDate: '2026-05-10'
 chapterNumber: 8
+heroImage: ../../assets/headers/remote-help.png
 ---
 
 高齢になると、テレビのリモコン操作や、ネット動画の選択がだんだん難しくなってきます。

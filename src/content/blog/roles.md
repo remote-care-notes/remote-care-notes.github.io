@@ -3,6 +3,7 @@ title: '機材編：3つの仕組みで役割を分ける'
 description: 'Tapo・SwitchBot・Alexa が、それぞれ何を担当しているのか。3つの組み合わせで、どんな見守りが回るのか。'
 pubDate: '2026-05-10'
 chapterNumber: 3
+heroImage: ../../assets/headers/roles.png
 ---
 
 [前の章（用意するもの）](/blog/gear/) で紹介した機材を、実際に動かすための仕組みは3つあります。

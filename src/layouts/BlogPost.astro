@@ -38,6 +38,9 @@ if (typeof chapterNumber === 'number') {
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
+				max-width: 480px;
+				width: calc(100% - 2em);
+				height: auto;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
@@ -49,13 +52,14 @@ if (typeof chapterNumber === 'number') {
 				color: rgb(var(--gray-dark));
 			}
 			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
+				margin-bottom: 0.6em;
+				padding: 0.4em 0 0.6em;
 				text-align: center;
-				line-height: 1;
+				line-height: 1.2;
 			}
 			.title h1 {
-				margin: 0 0 0.5em 0;
+				margin: 0.2em 0 0.4em 0;
+				font-size: 1.4em;
 			}
 			.chapter-num {
 				color: rgb(var(--gray));
