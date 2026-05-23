@@ -1,8 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import heroImage from '../assets/headers/index.png';
 ---
 
 <!doctype html>
@@ -18,6 +20,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			<p>
 				時間も金もない現役世代に向けて、機材選びから日々の運用、家族での分担まで、全15章にまとめています。
 			</p>
+			<div class="hero-image">
+				<Image src={heroImage} alt="" width={960} />
+			</div>
 			<nav class="cta-row">
 				<a class="cta cta-primary" href="/blog/hajimeni/">最初から読む</a>
 				<a class="cta" href="/blog/">記事一覧から選ぶ</a>
@@ -27,6 +32,17 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		</main>
 		<Footer />
 		<style>
+			.hero-image {
+				margin: 0 auto 3em;
+				max-width: 480px;
+			}
+			.hero-image :global(img) {
+				display: block;
+				width: 100%;
+				height: auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
 			main h1 {
 				margin-bottom: 0.3em;
 			}
@@ -38,8 +54,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			.cta-row {
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: center;
 				gap: 0.8em;
-				margin: 2em 0 1.5em;
+				margin: 0 0 1.5em;
 			}
 			.cta {
 				display: inline-block;
@@ -68,6 +85,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			.about-link {
 				margin-top: 1em;
 				font-size: 0.9em;
+				text-align: center;
 			}
 			.about-link a {
 				color: rgb(var(--gray));
