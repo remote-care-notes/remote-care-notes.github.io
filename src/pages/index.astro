@@ -1,39 +1,107 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import { CHAPTERS } from '../chapters';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import heroImage from '../assets/headers/index.png';
+
+// <title> だけブランド名に説明を添える（h1 は素のサイト名のまま）
+const homeTitle = `${SITE_TITLE}｜離れて暮らす親を見守る3年間の運用メモ`;
+
+// 実在する章だけリンクにする（未公開章はプレーンテキスト）
+const posts = await getCollection('blog');
+const slugSet = new Set(posts.map((p) => p.id));
+
+const website = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: SITE_TITLE,
+	description: SITE_DESCRIPTION,
+	url: new URL('/', Astro.site).href,
+	inLanguage: 'ja',
+};
 ---
 
 <!doctype html>
 <html lang="ja">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={homeTitle} description={SITE_DESCRIPTION} jsonLd={website} />
 	</head>
 	<body>
 		<Header />
 		<main>
 			<h1>{SITE_TITLE}</h1>
 			<p class="tagline">{SITE_DESCRIPTION}</p>
-			<p>
-				時間も金もない現役世代に向けて、機材選びから日々の運用、家族での分担まで、全15章にまとめています。
-			</p>
+
 			<div class="hero-image">
 				<Image src={heroImage} alt="" width={960} />
 			</div>
+
+			<div class="intro">
+				<p>
+					離れて暮らす親を、毎日は通えない距離からどう見守るか。少子高齢化で仕事も休めない現役世代が、施設に入れる余裕もないなかで、母親の見守りと介護予防のために3年かけて組み立てた仕組みをまとめたサイトです。
+				</p>
+				<p>
+					介護の専門家でもITの専門家でもない、普通の家族が試行錯誤した記録です。カメラ・温湿度計・スマートスピーカーといった家庭用のスマートホーム機器を、合計1〜2万円ぶんの機材と無料アプリだけで組み合わせて、離れていても「家の中が今どうなっているか」を把握し、必要なときだけ手を出せるようにしています。
+				</p>
+				<p>
+					上位表示を狙うようなサイトではありません。親の介護が急に始まって困っている人に、遠回りせず届けばいいと思って書いています。うまくいかなかった話も含めて、全15章で公開しています。
+				</p>
+			</div>
+
+			<section class="learn">
+				<h2>このサイトで分かること</h2>
+				<ul>
+					<li>何を買えばいいか（1〜2万円の機材セットと、無料で使えるアプリ）</li>
+					<li>遠隔から室温・湿度をどう管理するか（エアコンの自動オン・オフ）</li>
+					<li>夜間の転倒をどう防ぐか（声かけひとつで動線を全部点灯）</li>
+					<li>本人の運動・発話・生活リズムをどう保つか</li>
+					<li>訪問ヘルパーが働きやすい環境を遠隔からどう整えるか</li>
+					<li>家族でどう分担するか（遠隔のシステム担当 × 近所の駆けつけ担当）</li>
+				</ul>
+			</section>
+
 			<nav class="cta-row">
 				<a class="cta cta-primary" href="/blog/hajimeni/">最初から読む</a>
 				<a class="cta" href="/blog/">記事一覧から選ぶ</a>
 				<a class="cta" href="/shopping-list/">機材リストだけ見る</a>
 			</nav>
+
+			<section class="roadmap">
+				<h2>全15章の地図</h2>
+				<ol class="toc">
+					{
+						CHAPTERS.map((c) => {
+							const exists = slugSet.has(c.slug);
+							return (
+								<li class={`toc-item ${exists ? '' : 'toc-soon'}`}>
+									<span class="toc-num">{c.num}.</span>
+									<div class="toc-body">
+										<div class="toc-title">
+											{exists ? (
+												<a href={`/blog/${c.slug}/`}>{c.title}</a>
+											) : (
+												<span>{c.title}</span>
+											)}
+										</div>
+										<p class="toc-desc">{c.desc}</p>
+									</div>
+								</li>
+							);
+						})
+					}
+				</ol>
+			</section>
+
 			<p class="about-link"><a href="/about/">このサイトについて</a></p>
 		</main>
 		<Footer />
 		<style>
 			.hero-image {
-				margin: 0 auto 3em;
+				margin: 0 auto 2em;
 				max-width: 480px;
 			}
 			.hero-image :global(img) {
@@ -51,12 +119,38 @@ import heroImage from '../assets/headers/index.png';
 				color: rgb(var(--gray-dark));
 				margin-bottom: 1.5em;
 			}
+			.intro {
+				text-align: left;
+				margin: 0 auto 2em;
+				max-width: 42em;
+			}
+			.intro p {
+				margin: 0 0 1em;
+				line-height: 1.75;
+			}
+			.learn {
+				text-align: left;
+				max-width: 42em;
+				margin: 0 auto 2em;
+			}
+			.learn h2 {
+				font-size: 1.15em;
+				margin-bottom: 0.6em;
+			}
+			.learn ul {
+				margin: 0;
+				padding-left: 1.2em;
+			}
+			.learn li {
+				margin-bottom: 0.4em;
+				line-height: 1.6;
+			}
 			.cta-row {
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: center;
 				gap: 0.8em;
-				margin: 0 0 1.5em;
+				margin: 0 0 2.5em;
 			}
 			.cta {
 				display: inline-block;
@@ -82,8 +176,63 @@ import heroImage from '../assets/headers/index.png';
 				border-color: #1a2bcc;
 				color: #fff;
 			}
+			.roadmap {
+				text-align: left;
+				max-width: 42em;
+				margin: 0 auto;
+			}
+			.roadmap h2 {
+				font-size: 1.15em;
+				margin-bottom: 0.4em;
+			}
+			.toc {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.toc-item {
+				border-bottom: 1px solid rgb(var(--gray-light));
+				padding: 0.8em 0;
+				display: flex;
+				gap: 0.6em;
+			}
+			.toc-num {
+				flex-shrink: 0;
+				min-width: 2em;
+				color: rgb(var(--gray));
+				font-weight: 700;
+				font-variant-numeric: tabular-nums;
+			}
+			.toc-body {
+				flex: 1;
+			}
+			.toc-title {
+				font-weight: 700;
+			}
+			.toc-title a {
+				text-decoration: none;
+			}
+			.toc-title a:hover {
+				text-decoration: underline;
+			}
+			.toc-desc {
+				margin: 0.2em 0 0 0;
+				color: rgb(var(--gray));
+				font-size: 0.92em;
+			}
+			.toc-soon .toc-num,
+			.toc-soon .toc-title,
+			.toc-soon .toc-desc {
+				color: rgb(var(--gray));
+			}
+			.toc-soon .toc-title::after {
+				content: '（準備中）';
+				font-weight: 400;
+				font-size: 0.85em;
+				margin-left: 0.4em;
+			}
 			.about-link {
-				margin-top: 1em;
+				margin-top: 2.5em;
 				font-size: 0.9em;
 				text-align: center;
 			}

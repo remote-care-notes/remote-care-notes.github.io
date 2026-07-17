@@ -5,10 +5,46 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'] & { id?: string };
 
 const { title, description, pubDate, updatedDate, heroImage, chapterNumber } = Astro.props;
+
+// ブランド名をタイトルに添える（h1 は素のタイトルのまま、<title> だけ補強）
+const pageTitle = `${title}｜${SITE_TITLE}`;
+
+// 構造化データは「章」ページ（chapterNumber あり）だけに付ける。
+// about / shopping-list など章でないページには付けない（パンくずが不正確になるため）。
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const heroURL = heroImage ? new URL(heroImage.src, Astro.site).href : undefined;
+const isChapter = typeof chapterNumber === 'number';
+const jsonLd = isChapter
+	? [
+			{
+				'@context': 'https://schema.org',
+				'@type': 'BlogPosting',
+				headline: title,
+				description,
+				datePublished: pubDate.toISOString(),
+				...(updatedDate ? { dateModified: updatedDate.toISOString() } : {}),
+				...(heroURL ? { image: heroURL } : {}),
+				inLanguage: 'ja',
+				author: { '@type': 'Person', name: SITE_TITLE },
+				mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+				url: canonical,
+			},
+			{
+				'@context': 'https://schema.org',
+				'@type': 'BreadcrumbList',
+				itemListElement: [
+					{ '@type': 'ListItem', position: 1, name: 'ホーム', item: new URL('/', Astro.site).href },
+					{ '@type': 'ListItem', position: 2, name: '記事一覧', item: new URL('/blog/', Astro.site).href },
+					{ '@type': 'ListItem', position: 3, name: title, item: canonical },
+				],
+			},
+		]
+	: undefined;
 
 const allPosts = await getCollection('blog');
 const ordered = allPosts
@@ -25,7 +61,7 @@ if (typeof chapterNumber === 'number') {
 
 <html lang="ja">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={pageTitle} description={description} image={heroImage} jsonLd={jsonLd} />
 		<style>
 			main {
 				width: calc(100% - 2em);
