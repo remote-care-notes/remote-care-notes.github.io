@@ -33,3 +33,6 @@ pnpm-debug.log*
 
 # astro
 .astro/
+
+# IndexNow API key (local copy for scripts; public/<key>.txt is served by design)
+.indexnow-key
