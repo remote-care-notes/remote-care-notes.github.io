@@ -5,8 +5,10 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	/* 見出し画像の水彩（木・土の色）に合わせたチョコレート系。
+	   Bear Blog 既定の青は挿絵から浮くので使わない。 */
+	--accent: #6a3d1f;
+	--accent-dark: #452510;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -71,7 +73,7 @@ a {
 	color: var(--accent);
 }
 a:hover {
-	color: var(--accent);
+	color: var(--accent-dark);
 }
 p {
 	margin-bottom: 1em;
