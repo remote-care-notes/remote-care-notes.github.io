@@ -7,9 +7,16 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE } from '../consts';
 
-type Props = CollectionEntry<'blog'>['data'] & { id?: string };
+type Heading = { depth: number; slug: string; text: string };
+type Props = CollectionEntry<'blog'>['data'] & { id?: string; headings?: Heading[] };
 
-const { title, description, pubDate, updatedDate, heroImage, chapterNumber } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, chapterNumber, headings } =
+	Astro.props;
+
+// 目次。見出しが少ない記事に付けても邪魔なだけなので、5個以上ある時だけ出す。
+// h3 まで拾うのは、第5章の「冬 / 夏」のような読み分けを目次から辿れるようにするため。
+const toc = (headings ?? []).filter((h) => h.depth === 2 || h.depth === 3);
+const showToc = toc.length >= 5;
 
 // ブランド名をタイトルに添える（h1 は素のタイトルのまま、<title> だけ補強）
 const pageTitle = `${title}｜${SITE_TITLE}`;
@@ -153,6 +160,53 @@ if (typeof chapterNumber === 'number') {
 			.chapter-nav-toc a {
 				color: rgb(var(--gray));
 			}
+			/* 章の目次（見出しが5個以上の記事だけ） */
+			.toc {
+				margin: 0 0 2.5em;
+				padding: 1em 1.4em;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 8px;
+				background: rgba(var(--gray-light), 25%);
+			}
+			.toc-title {
+				margin: 0 0 0.5em;
+				font-weight: 700;
+				font-size: 0.95em;
+				color: rgb(var(--gray-dark));
+			}
+			.toc ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				line-height: 1.7;
+			}
+			.toc li {
+				font-size: 0.95em;
+			}
+			.toc li::before {
+				content: '・';
+				color: rgb(var(--gray));
+			}
+			.toc .toc-sub {
+				padding-left: 1.2em;
+				font-size: 0.9em;
+			}
+			.toc .toc-sub::before {
+				content: '－';
+			}
+			.toc a {
+				color: rgb(var(--gray-dark));
+				text-decoration: none;
+			}
+			.toc a:hover {
+				color: var(--accent);
+				text-decoration: underline;
+			}
+			/* 見出しへ飛んだ時に、上に隠れず余白を持って止まる */
+			article :global(h2),
+			article :global(h3) {
+				scroll-margin-top: 1.5em;
+			}
 			/* 図クリックで拡大表示 */
 			article figure img {
 				cursor: zoom-in;
@@ -210,6 +264,20 @@ if (typeof chapterNumber === 'number') {
 						<h1>{title}</h1>
 						<hr />
 					</div>
+					{
+						showToc && (
+							<nav class="toc" aria-label="この章の目次">
+								<p class="toc-title">この章の内容</p>
+								<ul>
+									{toc.map((h) => (
+										<li class={h.depth === 3 ? 'toc-sub' : ''}>
+											<a href={`#${h.slug}`}>{h.text}</a>
+										</li>
+									))}
+								</ul>
+							</nav>
+						)
+					}
 					<slot />
 					{
 						(prev || next) && (
