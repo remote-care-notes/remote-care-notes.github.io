@@ -113,6 +113,31 @@ heroImage: ../../assets/headers/temperature.png
 
 もちろん、どの方式でも掃除は要ります。ただ、離れて暮らしていると **こまめな手入れをこちらでは確認できません**。掃除が行き届かなかった時に、被害が小さいほうを選んでおく、という考え方です。[第14章](/blog/imperfect/)で書く「完璧を目指さない」を、機材選びの段階でやっている形になります。
 
+### 遠隔からも操作したい場合
+
+我が家の加湿器はリモコンが付いていないので、湿度の調整は本人まかせです。ここも遠隔から触りたい場合は、**スマートリモコン対応をうたっている加熱式** を選ぶ手があります。
+
+たとえばダイニチのハイブリッド式（気化式 × 温風気化式）は、専用リモコンが付かないかわりに、**市販のスマートリモコンから赤外線で操作されることを前提にした設計** になっています。[第3章](/blog/roles/)で書く SwitchBot Hub に覚えさせれば、電源のオン・オフや運転モードを遠隔から変えられます。ヒーターで温めた風を当てる方式なので、超音波式のように水滴を飛ばすこともありません。
+
+ただし、**少々値が張ります。** このサイトで薦めている機材一式（1〜2万円）に対して、これ1台でその予算を超えます。うちもまだ入れ替えていません。「こういう選択肢もある」という一例として置いておきます。
+
+一例（PR・Amazon アソシエイト / 楽天アフィリエイト）：
+
+<!-- START MoshimoAffiliateEasyLink -->
+<script type="text/javascript">
+(function(b,c,f,g,a,d,e){b.MoshimoAffiliateObject=a;
+b[a]=b[a]||function(){arguments.currentScript=c.currentScript
+||c.scripts[c.scripts.length-2];(b[a].q=b[a].q||[]).push(arguments)};
+c.getElementById(a)||(d=c.createElement(f),d.src=g,
+d.id=a,e=c.getElementsByTagName("body")[0],e.appendChild(d))})
+(window,document,"script","//dn.msmstatic.com/site/cardlink/bundle.js?20220329","msmaflink");
+msmaflink({"n":"DAINICHI ダイニチプラス HD-LX1025(H) [モスグレー]","b":"ダイニチ(Dainichi)","t":"","d":"https:\/\/m.media-amazon.com","c_p":"","p":["\/images\/I\/115QeLH-nFL._SL500_.jpg"],"u":{"u":"https:\/\/www.amazon.co.jp\/dp\/B0FYNBMWZL","t":"amazon","r_v":""},"v":"2.1","b_l":[{"id":1,"u_tx":"Amazonで見る","u_bc":"#f79256","u_url":"https:\/\/www.amazon.co.jp\/dp\/B0FYNBMWZL","a_id":5545380,"p_id":170,"pl_id":27060,"pc_id":185,"s_n":"amazon","u_so":1},{"id":2,"u_tx":"楽天市場で見る","u_bc":"#f76956","u_url":"https:\/\/search.rakuten.co.jp\/search\/mall\/DAINICHI%20%E3%83%80%E3%82%A4%E3%83%8B%E3%83%81%E3%83%97%E3%83%A9%E3%82%B9%20HD-LX1025(H)%20%5B%E3%83%A2%E3%82%B9%E3%82%B0%E3%83%AC%E3%83%BC%5D\/","a_id":5545362,"p_id":54,"pl_id":27059,"pc_id":54,"s_n":"rakuten","u_so":2},{"id":3,"u_tx":"Yahoo!ショッピングで見る","u_bc":"#66a7ff","u_url":"https:\/\/shopping.yahoo.co.jp\/search?first=1\u0026p=DAINICHI%20%E3%83%80%E3%82%A4%E3%83%8B%E3%83%81%E3%83%97%E3%83%A9%E3%82%B9%20HD-LX1025(H)%20%5B%E3%83%A2%E3%82%B9%E3%82%B0%E3%83%AC%E3%83%BC%5D","a_id":5550969,"p_id":1225,"pl_id":27061,"pc_id":1925,"s_n":"yahoo","u_so":3}],"eid":"UG5TQ","s":"s"});
+</script>
+<div id="msmaflink-UG5TQ">リンク</div>
+<!-- MoshimoAffiliateEasyLink END -->
+
+SwitchBot の赤外線データベースにはダイニチの加湿器が載っていないので、Hub に覚えさせる時は1ボタンずつ学習させることになります。「説明書を見ないと設定できない」という先行例もあるので、そこは手間だと思っておいてください。
+
 ## 方針
 
 - **教科書値を基準にしつつ、本人の体感を真実とする**：観察を重ねて個別最適化する
