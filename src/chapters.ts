@@ -1,4 +1,4 @@
-// 全15章のメタ情報。トップ（index.astro）と記事一覧（blog/index.astro）で共有する。
+// 全16章のメタ情報。トップ（index.astro）と記事一覧（blog/index.astro）で共有する。
 // 記事本体の frontmatter とは別に、一覧・導線用の短い説明（desc）をここで一元管理する。
 
 export interface Chapter {
@@ -23,5 +23,6 @@ export const CHAPTERS: Chapter[] = [
 	{ num: 12, slug: 'visit-support', title: '訪問サービスを支える環境', desc: 'ヘルパーさんが働きやすい部屋を遠隔から整える' },
 	{ num: 13, slug: 'family', title: '家族で分担する', desc: '遠隔（システム担当）× 近所（駆けつけ担当）' },
 	{ num: 14, slug: 'imperfect', title: '完璧を目指さない', desc: '家電に元々ついてる安全機能を信頼する' },
-	{ num: 15, slug: 'split-screen', title: '毎日の操作を1タップにする', desc: 'Split Screen Launcher でアプリ起動の手間を減らす' },
+	{ num: 15, slug: 'network-backup', title: '実家のネットが落ちた時の備え', desc: '連絡手段を2本にして、ルーターは100円のスイッチで再起動' },
+	{ num: 16, slug: 'split-screen', title: '毎日の操作を1タップにする', desc: 'Split Screen Launcher でアプリ起動の手間を減らす' },
 ];
