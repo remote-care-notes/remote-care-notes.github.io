@@ -10,8 +10,10 @@
 	--accent: #6a3d1f;
 	--accent-dark: #452510;
 	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
+	/* 補助テキストと罫線。既定は青みがかった灰だったが、
+	   挿絵とリンク色が暖色なので茶みのある灰に寄せる。 */
+	--gray: 122, 110, 98;
+	--gray-light: 232, 227, 219;
 	--gray-dark: 34, 41, 57;
 	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
 	--box-shadow:

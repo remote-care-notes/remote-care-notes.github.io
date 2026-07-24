@@ -35,7 +35,7 @@ Android スマホやタブレットには、画面を上下2つに分けて2つ�
 
 <figure>
   <img src="/diagrams/split-screen-actual.png" alt="Android端末の画面分割。上半分にTapoアプリのカメラ一覧、下半分にSwitchBotアプリで「母の家」のデバイス一覧（寝室のライト、サーキュレーター、エアコン22.0℃/49%・設定23℃、ライト、テレビ）が表示されている" style="max-width: 360px; width: 100%; display: block; margin: 1em auto; border-radius: 12px;" />
-  <figcaption style="text-align: center; font-size: 0.85em; color: rgb(96, 115, 159);">実機での画面分割の例。上が Tapo（カメラ）、下が SwitchBot（温湿度・家電）。</figcaption>
+  <figcaption style="text-align: center; font-size: 0.85em; color: rgb(var(--gray));">実機での画面分割の例。上が Tapo（カメラ）、下が SwitchBot（温湿度・家電）。</figcaption>
 </figure>
 
 ## 「ずっと見守る」を「ゆるく気付ける」に変える
