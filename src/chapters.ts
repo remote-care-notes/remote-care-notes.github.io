@@ -14,7 +14,7 @@ export const CHAPTERS: Chapter[] = [
 	{ num: 3, slug: 'roles', title: '機材編', desc: 'Tapo / SwitchBot / Alexa の役割分担' },
 	{ num: 4, slug: 'morning', title: '朝のルーティン', desc: '起床の2時間前にエアコンを仕上げて、Alexaに挨拶してもらう' },
 	{ num: 5, slug: 'temperature', title: '室温と湿度の管理', desc: '介護現場の目安と、本人の体感に合わせた調整' },
-	{ num: 6, slug: 'auto-control', title: '暑さ寒さで自動オン・オフ', desc: 'SwitchBot のシーンで温度に合わせてエアコンを動かす' },
+	{ num: 6, slug: 'auto-control', title: '暑くなったら自動でオン', desc: '本人が切ったエアコンを、27℃を超えたら SwitchBot が戻す' },
 	{ num: 7, slug: 'fall-prevention', title: '照明と転倒予防', desc: '「アレクサ、トイレ」一発で動線全部点灯した話' },
 	{ num: 8, slug: 'remote-help', title: 'テレビやネットの操作を遠隔から手助け', desc: 'Alexa + Fire TV + カメラの組み合わせ' },
 	{ num: 9, slug: 'alexa-words', title: 'Alexa の話しかける言葉は本人に合わせる', desc: '普段使ってる言葉をそのままに' },
